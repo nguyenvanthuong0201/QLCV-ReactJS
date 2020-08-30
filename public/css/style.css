@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  width: 100%;
+}
+nav.navbar{
+  transition: 1s;
+}
+nav.navbar.navbar-expand-lg.navbar-light.fixed-top.menu-background {
+  background-color: coral;
+  transition: 1s;
+}
+.background .contact{
+  background-color: #F1FAF3;
+  height: 100px;
+  line-height: 100px;
+}
+.background{
+  position: relative;
+}
+.background i{
+  position: absolute;
+  right: 10%;
+  bottom: 35%;
+  padding: 10px;
+  background-color: #3F51B5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.car{
+  transition: 1s;
+}
+.card-img-top{
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+.card:hover .card-img-top{
+  transform: scale(1);
+  transition: 0.5s;
+}
+.card h5{
+  opacity: 1;
+  transition: 1s;
+}
+.card button.btn{
+  opacity: 0;
+  transition: 0.5s;
+}
+.card:hover button.btn{
+  opacity: 1;
+  transition: 0.5s;
+  transform:translateY(10px);
+}
+
+
+
+
+
+
+
+@media screen and(max-witdh: 992px) {
+}
+@media screen and(max-witdh: 768px) {
+}
+@media screen and(max-witdh: 576px) {
+}
